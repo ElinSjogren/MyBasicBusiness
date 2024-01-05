@@ -1,0 +1,37 @@
+﻿@using Microsoft.IdentityModel
+
+<h1 class="text-primary">Our categories</h1>
+<p>We have it all, just say what you want. </p>
+@if (User.Identity.IsAuthenticated){
+<a class="btn btn-light mb-2" asp-controller="Category" asp-action="AddCategory">Add new <i class="bi bi-journal-plus "></i></a>
+}
+<table class="table table-hover rounded">
+    <thead class="table-primary">
+        <tr>
+            <th>Category</th>
+            <th>Amount products</th>
+            <th class="text-center">Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--List all products here-->
+        @foreach (Category category in Model)
+        {
+            <tr class="text-primary ">
+                <td>@category.Name</td>
+                <td>100+</td>
+                <td>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="btn-group">
+                            <a class="btn btn-warning m-1" asp-controller="Category" asp-action="DeleteCategory" asp-route-id="@category.Id"><i class="bi bi-trash"></i></a>
+                            <a class="btn btn-light m-1" asp-controller="Category" asp-action="EditCategory" asp-route-id="@category.Id"><i class="bi bi-pen"></i></a>
+                        </div>
+                    }
+                </td>
+            </tr>
+        }
+
+    </tbody>
+
+</table>

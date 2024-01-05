@@ -1,0 +1,14 @@
+﻿@model Category
+<h3 class="text-primary text-center">Add category</h3>
+<form method="post">
+    <label asp-for="Name" class="form-label"></label>
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <input type="text" class="form-control m-3" asp-for="Name" />
+
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

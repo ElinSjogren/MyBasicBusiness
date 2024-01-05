@@ -1,0 +1,19 @@
+﻿@model Product
+<h3 class="text-primary text-center">Edit product</h3>
+<form method="post">
+    <label asp-for="Name" class="form-label"></label>
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <input type="text" class="form-control m-3" asp-for="Name" />
+    
+    <label asp-for="Price" class="form-label"></label>
+    <span asp-validation-for="Price" class="text-danger"></span>
+    <input type="text" class="form-control m-3" asp-for="Price" />
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}
+
