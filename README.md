@@ -36,3 +36,13 @@ Testerna för Product och för Category är i princip detsamma. Det som skiljer 
 För att köra applicationen behöver man bara logga in så kan man testa alla funktioner. Båda sidor för produkt och Kategori har samma funktioner. 
 
 ------------------------------------------------------------- 
+Egna reflektioner  
+Efter detta är dels att jag inte behöver förstå allt utan försöka att verkligen gå vidare. Jag fastnade flera gånger i en oändlig läsning i dokumentationen. Visst det är bra att lära sig nya saker men det tar väldigt mycket tid. 
+ 
+Jag har också lärt mig att det tar mycket mer tid än vad man tror att göra ett sådant här projekt. Jag kände först att jag nog skulle kunna spara en del tid på att inte behöva lägga in så mycket tid på layout, stil och css. Man fick väldigt mycket gratis. Men det blev ändå väldigt ont om tid. 
+
+ 
+
+Jag har verkligen fått lära mig att kollegor/klasskamrater gör en otrolig skillnad. Även om vi jobbar i olika projekt så har mina snälla klasskamrater funnits där varje dag. Jag tycker faktiskt att det är mycket smidigt att jobba på distans, då man kan dela skärm och se varandras arbeten. Istället för att följa med till någons skrivbord. 
+ 
+Just nu behöver jag mest tänka igenom denna process, för det har varit mycket stressigt. En stor del i mitt sätt att lära mig nya saker är att göra det på ett roligt sätt. Stress är inte roligt. Det var inget fel på uppgiften, skulle jag säga. Utan mer att det var för kort tid för mig. Så En lärdom jag tar med mig är väl att inte ha ledigt på helgen utan även då sitta med skolarbete, hellre råka vara färdig någon dag innan än att ha detta sent en fredag kväll. Mer än så kan jag inte komma på.
